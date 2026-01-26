@@ -6,7 +6,7 @@ class Vector3D {
     double y_;
     double z_;
   public:
-    Vector3D()
+    Vector3D();
     Vector3D(double x, double y, double z);
     
     double getX() const;
