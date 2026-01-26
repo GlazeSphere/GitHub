@@ -9,9 +9,9 @@ Vector3D::Vector3D() {
   x_ = 0.0;
 }
 Vector3D::Vector3D(double x, double y, double z) {
-  x = x_;
-  y = y_;
-  z = z_;
+  x_ = x;
+  y_ = y;
+  z_ = z;
 }
 
 double Vector3D::getX() const {
